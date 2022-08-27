@@ -1,0 +1,214 @@
+/* Macbook */
+.sub__link__macbook,
+.sub__link__ipad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__apple__products {
+  margin-bottom: 12px;
+}
+
+.apple__products {
+  background: #fbfbfd;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.macbook__air,
+.macbook__pro,
+.ipad {
+  padding-top: 1.6rem;
+  flex: 1 1 5rem;
+  cursor: pointer;
+  line-height: 5px;
+}
+
+.macbook__pro,
+.ipad {
+  background: #000000;
+}
+
+.apple__products__img {
+  padding-top: 2rem;
+}
+
+.title__macbook-air {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1a1a1a;
+  letter-spacing: -1px;
+  margin-bottom: 1rem;
+}
+
+.sub-title__macbook-air {
+  font-size: 1.3rem;
+  color: #1a1a1a;
+  margin-left: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: -1px;
+}
+
+.sub-link__macbook-air,
+.sub-link__macbook-pro,
+.sub-link__ipad {
+  padding: 0.85rem;
+  font-size: 1rem;
+  color: #06c;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-link__macbook-pro,
+.sub-link__ipad,
+.blue {
+  color: #2997ff;
+}
+
+.title__macbook-pro {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fbfbfd;
+  letter-spacing: -1px;
+  margin-bottom: 1rem;
+}
+
+.sub-title__macbook-pro,
+.sub-title__ipad {
+  font-size: 1.3rem;
+  color: #fbfbfd;
+  margin-left: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: -1px;
+}
+
+.sub-link__macbook-pro {
+  margin-left: -5px;
+}
+
+.sub-title__ipad {
+  letter-spacing: normal;
+}
+
+.macbook__chip {
+  padding-left: 5px;
+}
+
+.sub__link__macbook {
+  margin: -1.2rem 0rem 0 0;
+  letter-spacing: 0.5px;
+}
+
+/* Apple Watch and iPad Section */
+
+.apple__watch,
+.apple__arcade {
+  padding-top: 1.6rem;
+  flex: 1 1 5rem;
+  cursor: pointer;
+  line-height: 5px;
+}
+
+.title__watch,
+.title__arcade {
+  font-size: 2rem;
+  color: #1a1a1a;
+  letter-spacing: -1px;
+  margin-bottom: 1rem;
+}
+
+.title__arcade {
+  font-size: 2.5rem;
+}
+
+.title__ipad,
+.title__arcade {
+  font-size: 2.5rem;
+  color: #fbfbfd;
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.title__arcade {
+  color: #1a1a1a;
+}
+
+.sub-title__watch,
+.sub-title__arcade {
+  font-size: 1.25rem;
+  color: #000000;
+  margin-left: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: normal;
+}
+
+.sub__link__watch,
+.sub__link__arcade {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -5px;
+}
+
+.sub__link__arcade {
+  margin: 0rem 0 2.3rem -1rem;
+}
+
+.sub-link__watch,
+.sub-link__arcade {
+  padding: 0.85rem;
+  font-size: 1rem;
+  color: #06c;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.5px;
+}
+
+.sub-link__arcade:hover,
+.sub-link__watch:hover,
+.sub-link__ipad:hover {
+  text-decoration: underline;
+}
+
+.mini-title__watch {
+  font-size: 0.95rem;
+  color: #d63122;
+  margin: 0 0 1.7rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 2px;
+  letter-spacing: 1px;
+}
+
+.apple__watch__img {
+  padding-top: -2rem;
+}
+
+.arrow-right {
+  color: #06c;
+  margin-left: -12px;
+  font-size: 13px;
+}
+
+.blue {
+  color: #2997ff;
+}

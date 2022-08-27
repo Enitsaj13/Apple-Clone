@@ -1,0 +1,72 @@
+nav {
+  background: rgba(0, 0, 0, 0.8);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  height: 2.7rem;
+  /* sticky navbar */
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  max-width: 70rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav li:hover,
+.apple__logo:hover {
+  color: #f5f5f7;
+}
+
+.apple__logo {
+  color: #d4cbcb;
+}
+
+.nav__link {
+  font-size: 11.2px;
+  margin-bottom: -0.5rem;
+}
+
+nav ul li {
+  cursor: pointer;
+  padding: 0.5rem;
+  flex: auto;
+  text-align: center;
+  letter-spacing: 0.6px;
+}
+
+.navbar__icons {
+  margin-bottom: -0.4rem;
+  font-size: 16px;
+}
+
+.bag {
+  margin-top: 0.3rem;
+  font-size: 18px;
+}
+
+.search {
+  margin-top: 0.4rem;
+}
+
+.apple-hidden,
+.menu-hidden {
+  display: none;
+}
+
+/* Responsive */
+
+@media (max-width: 835px) {
+  .nav__link {
+    display: none;
+  }
+
+  .apple-hidden .menu-hidden .bag {
+    visibility: visible;
+  }
+}

@@ -1,0 +1,60 @@
+.section__hero__div {
+  text-align: center;
+  background: #fbfbfd;
+  margin-top: -18px;
+}
+
+.section__hero__div {
+  margin-bottom: 12px;
+}
+
+.macbook {
+  background: #f5f5f7;
+}
+
+.title__hero {
+  font-size: 3.4rem;
+  font-weight: 580;
+  color: #1a1a1a;
+  letter-spacing: -1px;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.hero__title__pink {
+  color: #cf2d69;
+  cursor: pointer;
+}
+
+.sub-title__hero {
+  font-size: 1.7rem;
+  color: #1a1a1a;
+  letter-spacing: -1px;
+  margin-top: -2.8rem;
+}
+
+.sub-link__hero {
+  margin: 0.8rem 0 0 -1rem;
+  margin-top: -0.7rem;
+}
+
+.sub-link__hero a {
+  font-size: 1.25rem;
+  color: #06c;
+  text-decoration: none;
+  margin: 2rem;
+}
+
+.sub-link__hero a:hover {
+  text-decoration: underline;
+}
+
+.icon__hero {
+  margin: 0 0 -1px -1.7rem;
+  font-size: small;
+}
+
+.hero__image {
+  margin-top: 1.8rem;
+  margin-bottom: -4px;
+}
