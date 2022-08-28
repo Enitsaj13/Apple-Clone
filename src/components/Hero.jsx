@@ -4,6 +4,9 @@ import { FcNext } from 'react-icons/fc';
 import Iphone13 from '../assets/Apple13.png';
 import Iphone13Pro from '../assets/Apple13.2.png';
 import Macbook from '../assets/Macbook.png';
+import MobileIphone13 from '../assets/mobile_apple13.png';
+import MobileIphone13Pro from '../assets/mobile_apple13.2.png';
+import MobileMacbook from '../assets/mobile__macbook.png';
 
 const Hero = () => {
   return (
@@ -20,6 +23,11 @@ const Hero = () => {
             <FcNext className='icon__hero' />
           </div>
           <img className='hero__image' src={Iphone13} alt='Iphone13' />
+          <img
+            className='hero__image__mobile iphone13'
+            src={MobileIphone13}
+            alt='Iphone13'
+          />
         </div>
       </section>
       <br />
@@ -35,6 +43,11 @@ const Hero = () => {
             <FcNext className='icon__hero' />
           </div>
           <img className='hero__image' src={Iphone13Pro} alt='Iphone13' />
+          <img
+            className='hero__image__mobile'
+            src={MobileIphone13Pro}
+            alt='Iphone13Pro'
+          />
         </div>
       </section>
       <br />
@@ -58,6 +71,11 @@ const Hero = () => {
             <FcNext className='icon__hero' />
           </div>
           <img className='hero__image' src={Macbook} alt='Iphone13' />
+          <img
+            className='hero__image__mobile'
+            src={MobileMacbook}
+            alt='Iphone13'
+          />
         </div>
       </section>
     </>

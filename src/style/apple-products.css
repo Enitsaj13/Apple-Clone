@@ -184,7 +184,9 @@
 
 .sub-link__arcade:hover,
 .sub-link__watch:hover,
-.sub-link__ipad:hover {
+.sub-link__ipad:hover,
+.sub-link__macbook-air:hover,
+.sub-link__macbook-pro:hover {
   text-decoration: underline;
 }
 
@@ -203,6 +205,10 @@
   padding-top: -2rem;
 }
 
+.apple__products {
+  margin: auto;
+}
+
 .arrow-right {
   color: #06c;
   margin-left: -12px;
@@ -211,4 +217,58 @@
 
 .blue {
   color: #2997ff;
+}
+
+.arrow-upright {
+  transform: rotate(45deg);
+  color: #06c;
+  margin: 0 0 -2px -12px;
+}
+
+.mobile__apple__products {
+  display: none;
+}
+
+/* Responsive */
+@media (max-width: 1068px) {
+  .apple__products__img .apple__products,
+  .apple__watch__img .apple__products,
+  .apple__arcade__card .apple__products {
+    display: none;
+  }
+  .mobile__apple__products {
+    display: flex;
+    margin: auto;
+    max-width: 100%;
+  }
+
+  .title__ipad {
+    font-size: 2rem;
+  }
+
+  .apple__product {
+    margin-bottom: -3px;
+  }
+
+  .title__macbook-air,
+  .title__macbook-pro,
+  .title__watch,
+  .title__arcade {
+    font-size: 1.5rem;
+  }
+
+  .sub-title__arcade,
+  .sub-title__ipad,
+  .sub-title__macbook-air,
+  .sub-title__macbook-pro,
+  .sub-title__watch {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 735px) {
+  .apple__products {
+    display: flex;
+    flex-direction: column;
+  }
 }

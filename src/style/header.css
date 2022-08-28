@@ -16,7 +16,7 @@ header {
   font-size: 14px;
 }
 
-.unicef:hover {
+.unicef a:hover {
   text-decoration: underline;
 }
 
@@ -27,5 +27,29 @@ header {
 }
 
 .arrow__up__right {
-  margin-bottom: -4px;
+  transform: rotate(45deg);
+  margin-bottom: -6px;
+}
+
+/* Responsive */
+@media (max-width: 735px) {
+  header {
+    height: 3.7rem;
+  }
+
+  .unicef {
+    display: flex;
+    flex-direction: column;
+    margin-left: -5px;
+  }
+
+  .logo__div {
+    max-width: 2rem;
+    margin: -10px 0 0 -5rem;
+  }
+  .text__div {
+    text-align: center;
+    max-width: 13rem;
+    line-height: 1.2rem;
+  }
 }

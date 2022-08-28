@@ -8,9 +8,16 @@ import Ipad from '../assets/ipad.png';
 import IpadText from '../assets/iPad__air__text.png';
 import AppleCard from '../assets/card.png';
 import ArcadeGame from '../assets/games.png';
+import MobileMacbookPro from '../assets/mobile__macbook-pro.png';
+import MobileMacbookAir from '../assets/mobile__macbok-air.png';
+import MobileWatch from '../assets/mobile__watch.png';
+import MobileIpad from '../assets/mobile__ipad.png';
+import MobileCard from '../assets/mobile__card.png';
+import MobileGame from '../assets/mobile__games.png';
+import MobileIpadText from '../assets/mobile_ipodtext.png';
 import { HiOutlineChevronRight } from 'react-icons/hi';
 import { BsApple } from 'react-icons/bs';
-import { ImArrowUpRight2 } from 'react-icons/im';
+import { IoIosArrowRoundUp } from 'react-icons/io';
 
 const AppleProducts = () => {
   return (
@@ -38,7 +45,16 @@ const AppleProducts = () => {
               <HiOutlineChevronRight className='arrow-right' />
             </div>
             <div className='apple__products__img'>
-              <img src={MacbookAir} alt='MacbookAirM2' />
+              <img
+                className='apple__products'
+                src={MacbookAir}
+                alt='MacbookAirM2'
+              />
+              <img
+                className='mobile__apple__products'
+                src={MobileMacbookAir}
+                alt='MacbookAirM2'
+              />
             </div>
           </div>
           <div className='macbook__pro'>
@@ -63,10 +79,16 @@ const AppleProducts = () => {
             </div>
             <div className='apple__products__img'>
               <img
+                className='apple__products'
                 src='https://static.techspot.com/images2/news/bigimage/2022/06/2022-06-06-image-17.jpg'
                 alt='MacbookProM2'
                 width='500'
                 height='360'
+              />
+              <img
+                className='mobile__apple__products'
+                src={MobileMacbookPro}
+                alt='MacbookAirM2'
               />
             </div>
           </div>
@@ -97,13 +119,22 @@ const AppleProducts = () => {
               <HiOutlineChevronRight className='arrow-right' />
             </div>
             <div className='apple__watch__img'>
-              <img src={AppleWatch} alt='Apple Watch' />
+              <img
+                className='apple__products'
+                src={AppleWatch}
+                alt='Apple Watch'
+              />
+              <img
+                className='mobile__apple__products'
+                src={MobileWatch}
+                alt='Apple Watch'
+              />
             </div>
           </div>
           <div className='ipad'>
             <h1 className='title__ipad'>
               iPad
-              <img className='air__text' src={IpadText} alt='air' />
+              <img className='apple__product' src={MobileIpadText} alt='air' />
             </h1>
             <p className='sub-title__ipad'>Light. Bright. Full of might.</p>
             <div className='sub__link__ipad'>
@@ -122,7 +153,12 @@ const AppleProducts = () => {
               <HiOutlineChevronRight className='arrow-right blue' />
             </div>
             <div className='apple__products__img'>
-              <img src={Ipad} alt='Ipad' />
+              <img className='apple__products' src={Ipad} alt='Ipad' />
+              <img
+                className='mobile__apple__products'
+                src={MobileIpad}
+                alt='Ipad'
+              />
             </div>
           </div>
         </div>
@@ -151,7 +187,16 @@ const AppleProducts = () => {
               <HiOutlineChevronRight className='arrow-right' />
             </div>
             <div className='apple__arcade__card'>
-              <img src={AppleCard} alt='Apple Card' />
+              <img
+                className='apple__products'
+                src={AppleCard}
+                alt='Apple Card'
+              />
+              <img
+                className='mobile__apple__products'
+                src={MobileCard}
+                alt='card'
+              />
             </div>
           </div>
           <div className='apple__arcade'>
@@ -178,10 +223,19 @@ const AppleProducts = () => {
                   2
                 </sup>
               </a>
-              <ImArrowUpRight2 className='arrow-right' />
+              <IoIosArrowRoundUp size={20} className='arrow-upright' />
             </div>
             <div className='apple__arcade__card'>
-              <img src={ArcadeGame} alt='Apple Arcade' />
+              <img
+                className='apple__products'
+                src={ArcadeGame}
+                alt='Apple Arcade'
+              />
+              <img
+                className='mobile__apple__products'
+                src={MobileGame}
+                alt='Apple Arcade'
+              />
             </div>
           </div>
         </div>

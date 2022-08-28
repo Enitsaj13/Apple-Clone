@@ -202,7 +202,7 @@ const Footer = () => {
               Legal <span>|</span>
             </a>
             <a className='footer__link'>Site Map</a>
-            <a className='footer__link__last'> United States</a>
+            <a className='footer__link__last'>United States</a>
           </p>
         </div>
       </footer>
