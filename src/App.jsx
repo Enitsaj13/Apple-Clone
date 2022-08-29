@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import AppleProducts from './components/AppleProducts';
 import Carousel from './components/Carousel';
 import Footer from './components/Footer';
+import Accordion from './components/Accordion';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <AppleProducts />
       <Carousel />
       <Footer />
+      {/* <Accordion /> */}
     </>
   );
 };

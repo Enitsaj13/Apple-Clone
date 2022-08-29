@@ -34,3 +34,19 @@
   object-fit: cover;
   margin-bottom: 2.6rem;
 }
+
+/* Responsive images in carousel */
+@media (max-width: 1024px) {
+  .swiper-slide img {
+    max-height: 30rem;
+    max-width: 100%;
+  }
+}
+
+/* Responsive images in carousel */
+@media (max-width: 768px) {
+  .swiper-slide img {
+    max-height: 20rem;
+    max-width: 100%;
+  }
+}

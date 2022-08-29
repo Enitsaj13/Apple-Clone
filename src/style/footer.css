@@ -39,7 +39,7 @@ hr {
 }
 
 .apple__info div {
-  width: 13rem;
+  width: 10rem;
 }
 
 .apple__acount,
@@ -50,9 +50,18 @@ hr {
   margin-top: 1rem;
 }
 
+.apple__div__footer {
+  display: flex;
+}
+
+.apple__div__footer div {
+  flex-grow: 2;
+}
+
 .apple__info ul {
   list-style: none;
-  margin: 8px 0 0 -2.5rem;
+  margin: 8px 0 0 0;
+  padding: 0;
 }
 
 .apple__info li {
@@ -117,4 +126,16 @@ hr {
   color: rgb(226, 220, 220);
   width: 1px;
   font-size: 12px;
+}
+
+.hr__accordion {
+  margin-top: 1.2rem;
+}
+
+@media screen and (max-width: 835px) {
+  .apple__div__footer,
+  .first__hr,
+  .last__hr {
+    display: none;
+  }
 }
