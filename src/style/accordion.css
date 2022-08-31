@@ -43,12 +43,9 @@
   text-decoration: underline;
 }
 
-.accordion-title:hover {
-  color: #636366;
-}
-
+.accordion-title:hover,
 .button__accordion {
-  font-size: 15px;
+  color: #636366;
 }
 
 @media screen and (max-width: 835px) {
@@ -57,7 +54,7 @@
   }
 
   .accordion-title {
-    margin: 12px 0 -10px 0;
+    margin: 12px 0 -16px 0;
     padding: 0;
   }
 }

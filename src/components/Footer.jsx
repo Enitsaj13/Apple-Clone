@@ -1,5 +1,6 @@
 import React from 'react';
 import Accordion from './Accords';
+import { TbMinusVertical } from 'react-icons/tb';
 import '../style/accordion.css';
 import '../style/footer.css';
 
@@ -342,7 +343,7 @@ const Footer = () => {
         <hr className='hr__accordion' />
 
         <div className='apple__copyright'>
-          <p>
+          <p className='contact__apple'>
             More ways to shop:
             <a className='footer__text'> Find an Apple Store </a> or
             <a className='footer__text'> other retailer </a>
@@ -350,24 +351,54 @@ const Footer = () => {
           </p>
 
           <hr className='last__hr' />
-          <p>
-            Copyright © 2022 Apple Inc. All rights reserved.
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a className='footer__link'>
-              Privacy Policy <span>|</span>
-            </a>
-            <a className='footer__link'>
-              Terms of Use <span>|</span>
-            </a>
-            <a className='footer__link'>
-              Sales and Refunds <span>|</span>
-            </a>
-            <a className='footer__link'>
-              Legal <span>|</span>
-            </a>
-            <a className='footer__link'>Site Map</a>
-            <a className='footer__link__last'>United States</a>
-          </p>
+
+          <div className='show__footer'>
+            <p>
+              Copyright © 2022 Apple Inc. All rights reserved.
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a className='footer__link'>
+                Privacy Policy <span>|</span>
+              </a>
+              <a className='footer__link'>
+                Terms of Use <span>|</span>
+              </a>
+              <a className='footer__link'>
+                Sales and Refunds <span>|</span>
+              </a>
+              <a className='footer__link'>
+                Legal <span>|</span>
+              </a>
+              <a className='footer__link'>Site Map</a>
+              <a className='footer__link__last'>United States</a>
+            </p>
+          </div>
+
+          <div className='hide__footer'>
+            <div className='footer__link__last-div'>
+              <a className='footer__link__last__hide'>United States</a>
+            </div>
+
+            <div className='footer__link-div'>
+              <p>Copyright © 2022 Apple Inc. All rights reserved.</p>
+              <a className='footer__link'>
+                Privacy Policy
+                <span>|</span>
+              </a>
+              <a className='footer__link'>
+                Terms of Use
+                <span>|</span>
+              </a>
+              <a className='footer__link'>
+                Sales and Refunds
+                <span>|</span>
+              </a>
+              <a className='footer__link'>
+                Legal
+                <span>|</span>
+              </a>
+              <a className='footer__link'>Site Map</a>
+            </div>
+          </div>
         </div>
       </footer>
     </div>
