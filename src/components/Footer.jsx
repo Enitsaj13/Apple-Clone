@@ -357,16 +357,16 @@ const Footer = () => {
               Copyright © 2022 Apple Inc. All rights reserved.
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <a className='footer__link'>
-                Privacy Policy <span>|</span>
+                Privacy Policy <span> |</span>
               </a>
               <a className='footer__link'>
-                Terms of Use <span>|</span>
+                Terms of Use <span> |</span>
               </a>
               <a className='footer__link'>
-                Sales and Refunds <span>|</span>
+                Sales and Refunds <span> |</span>
               </a>
               <a className='footer__link'>
-                Legal <span>|</span>
+                Legal <span> |</span>
               </a>
               <a className='footer__link'>Site Map</a>
               <a className='footer__link__last'>United States</a>
