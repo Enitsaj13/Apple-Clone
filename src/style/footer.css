@@ -190,6 +190,7 @@ hr {
     position: relative;
     right: 2px;
   }
+
   .hr__accordion {
     display: block;
   }
@@ -201,3 +202,12 @@ hr {
     line-height: 1.1rem;
   }
 }
+
+@media (min-width: 360px) and (max-width: 590px) {
+  .footer__link-div .footer__link {
+    line-height: 1.2rem;
+    position: relative;
+    bottom: 6px;
+  }
+}
+
